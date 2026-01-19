@@ -1,75 +1,31 @@
-# Nuxt Minimal Starter
+# Nuxt Portfolio Website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Dit project bevat mijn persoonlijke portfolio website, gebouwd met **Nuxt**.  
+De website is statisch opgezet en richt zich op het presenteren van mijn vaardigheden, ervaring en manier van werken als developer.
 
-## Setup
+De focus ligt op:
 
-Make sure to install dependencies:
+- overzicht en eenvoud
+- onderhoudbare code
+- een schone en professionele uitstraling
+
+## Tech Stack
+
+- **Nuxt 3**
+- **Vue 3**
+- **JavaScript**
+- **CSS**
+
+De applicatie bevat geen backend of database en wordt statisch gegenereerd.
+
+## Project Setup
+
+Installeer de dependencies:
 
 ```bash
-# npm
 npm install
-
-# pnpm
+# of
 pnpm install
-
-# yarn
+# of
 yarn install
-
-# bun
-bun install
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
