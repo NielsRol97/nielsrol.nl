@@ -16,14 +16,11 @@
     </div>
 
     <div class="hero-right">
-      <NuxtImg
-        src="/images/portrait.jpeg"
-        alt="Portrait of Niels Rol"
-        class="hero-image"
-        format="webp"
-        sizes="(max-width: 900px) 240px, 420px"
-        loading="eager"
-      />
+        <NuxtImg
+          :src="portrait"
+          alt="Portrait of Niels Rol"
+          class="hero-image"
+        />
     </div>
   </section>
 </template>
@@ -31,6 +28,9 @@
 
 <script lang="ts" setup>
 import Text from '@/components/Text.vue'
+
+import { assetUrl } from '@/utils/asset'
+const portrait = assetUrl('/images/portrait.jpeg')
 </script>
 
 <style scoped>
