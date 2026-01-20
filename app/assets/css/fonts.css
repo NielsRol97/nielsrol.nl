@@ -1,0 +1,86 @@
+/* =========================================
+   Typography system
+   ========================================= */
+
+:root {
+  /* Font sizes */
+  --fs-xs: clamp(0.75rem, 0.7rem + 0.2vw, 0.875rem);
+  --fs-sm: clamp(0.875rem, 0.85rem + 0.2vw, 1rem);
+  --fs-base: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
+
+  --fs-h1: clamp(2.5rem, 2rem + 2vw, 3.5rem);
+  --fs-h2: clamp(2rem, 1.7rem + 1.5vw, 2.75rem);
+  --fs-h3: clamp(1.6rem, 1.4rem + 1vw, 2.1rem);
+  --fs-h4: clamp(1.3rem, 1.15rem + 0.8vw, 1.7rem);
+  --fs-h5: clamp(1.1rem, 1rem + 0.5vw, 1.4rem);
+  --fs-h6: clamp(1rem, 0.95rem + 0.3vw, 1.2rem);
+
+  /* Line heights */
+  --lh-tight: 1.2;
+  --lh-normal: 1.6;
+  --lh-loose: 1.8;
+}
+
+/* =========================================
+   Base text
+   ========================================= */
+
+.text {
+  line-height: var(--lh-normal);
+  color: var(--color-text);
+  font-size: var(--fs-base);
+}
+
+/* =========================================
+   Headings
+   ========================================= */
+
+.text--h1 {
+  font-size: var(--fs-h1);
+  font-weight: 700;
+  line-height: var(--lh-tight);
+}
+
+.text--h2 {
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  line-height: var(--lh-tight);
+}
+
+.text--h3 {
+  font-size: var(--fs-h3);
+  font-weight: 600;
+}
+
+.text--h4 {
+  font-size: var(--fs-h4);
+  font-weight: 600;
+}
+
+.text--h5 {
+  font-size: var(--fs-h5);
+  font-weight: 500;
+}
+
+.text--h6 {
+  font-size: var(--fs-h6);
+  font-weight: 500;
+}
+
+/* =========================================
+   Body variants
+   ========================================= */
+
+.text--p {
+  font-size: var(--fs-base);
+}
+
+.text--small {
+  font-size: var(--fs-sm);
+  opacity: 0.8;
+}
+
+.text--xs {
+  font-size: var(--fs-xs);
+  opacity: 0.75;
+}
