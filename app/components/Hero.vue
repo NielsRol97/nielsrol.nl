@@ -22,13 +22,14 @@
           class="hero-image"
         />
     </div>
+
+
   </section>
 </template>
 
 
 <script lang="ts" setup>
 import Text from '@/components/Text.vue'
-
 import { assetUrl } from '@/utils/asset'
 const portrait = assetUrl('/images/portrait.jpeg')
 </script>
