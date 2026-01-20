@@ -34,6 +34,21 @@ export default defineNuxtConfig({
   },
 
   /* ---------------------------------
+   * Runtime config (optional but clean)
+   * --------------------------------- */
+  runtimeConfig: {
+    public: {
+      /**
+       * Used by assetUrl() helper.
+       * Local dev: ''
+       * GitHub Pages: '/nielsrol.nl'
+       * Future CDN: 'https://cdn.example.com'
+       */
+      assetBaseUrl: '/nielsrol.nl'
+    }
+  },
+
+  /* ---------------------------------
    * GitHub Pages config
    * --------------------------------- */
   app: {
